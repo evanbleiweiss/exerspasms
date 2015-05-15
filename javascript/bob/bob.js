@@ -9,7 +9,18 @@ Bob.prototype.hey = function(input) {
 //
 // YOUR CODE GOES HERE
 //
-  return "Whatever."
+  if (input.toUpperCase() === input){
+    // this.shouting()
+    return 'Whoa, chill out!'
+  }
+  else {
+    return "Whatever."
+  }
 };
+
+Bob.prototype.shouting = function() {
+  //check if input == caps
+    return 'Whoa, chill out!'
+}
 
 module.exports = Bob;
