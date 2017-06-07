@@ -31,3 +31,13 @@ function upperCaser(input) {
 }
 
 module.exports = upperCaser
+
+
+// Here's the official solution in case you want to compare notes:
+
+// ────────────────────────────────────────────────────────────────────────────────
+//     module.exports = function(input) {
+//       return input.toUpperCase()
+//     }
+
+// ────────────────────────────────────────────────────────────────────────────────
